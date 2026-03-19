@@ -7,7 +7,7 @@ st.write(
 )
 
  
-df = pd.DataFrame({'dia': [1, 2, 3, 4], 'demanda': [20, 30, 15, 35]})
+df = pd.DataFrame({'demanda 1': [10, 26, 13, 28], 'demanda 2': [20, 30, 15, 35]})
 st.line_chart(df)
 
 
